@@ -1,0 +1,9 @@
+// certbot 설치를 위한 패키지관리자 업데이트
+apt-get update
+apt-get install software-properties-common
+add-apt-repository universe
+add-apt-repository ppa:certbot/certbot
+apt-get update
+
+apt-get install certbot python3-certbot-nginx // certbot 설치
+certbot --nginx -d example.com -d www.example.com // certbot 실행

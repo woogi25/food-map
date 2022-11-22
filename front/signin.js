@@ -9,7 +9,7 @@
 
 */
 
-let url = "http://52.79.172.250:3000";
+let url = "https://www.swoogies.shop";
 
 const btnSignIn = document.querySelector("#signin");
 

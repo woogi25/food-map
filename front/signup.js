@@ -9,7 +9,7 @@
 
 */
 
-let url = "http://127.0.0.1:3000";
+let url = "http://52.79.172.250:3000";
 
 const btnSignUp = document.querySelector("#signup");
 
@@ -58,3 +58,4 @@ async function signup(event) {
 
   return location.replace("./index.html");
 }
+

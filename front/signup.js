@@ -9,7 +9,7 @@
 
 */
 
-let url = "https://www.swoogies.shop";
+let url = "https://www.swoogies.shop:3000";
 
 const btnSignUp = document.querySelector("#signup");
 
